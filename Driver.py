@@ -13,7 +13,7 @@ def main(argv):
         print("syntax errors")
     else:
         vinterp = VisitorInterp()
-        vinterp.visit(tree)
+        vinterp.visitProgram(tree)
 
 if __name__ == '__main__':
     main(sys.argv)

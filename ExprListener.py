@@ -26,6 +26,15 @@ class ExprListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by ExprParser#asing.
+    def enterAsing(self, ctx:ExprParser.AsingContext):
+        pass
+
+    # Exit a parse tree produced by ExprParser#asing.
+    def exitAsing(self, ctx:ExprParser.AsingContext):
+        pass
+
+
     # Enter a parse tree produced by ExprParser#value.
     def enterValue(self, ctx:ExprParser.ValueContext):
         pass
